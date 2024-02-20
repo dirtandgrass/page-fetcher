@@ -53,7 +53,7 @@ const main = async(url, filename) => {
 
   try {
     // make get request
-    const {data, status,headers} = await get(url);
+    const {data, status} = await get(url);
     console.log(`${url.substring(0, 25)}... \n\t returned status ${status} and ${data.length} bytes of data.`);
 
     // save data to file
