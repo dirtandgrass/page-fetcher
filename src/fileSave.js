@@ -1,9 +1,9 @@
 const fs = require('fs').promises;
 
 // simple object to save data to a given file
-const filesave = {
+const fileSave = {
   save: async(filename, data) => await fs.writeFile(filename, data)
 };
 
 
-module.exports = filesave;
+module.exports = fileSave;
