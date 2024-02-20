@@ -1,0 +1,24 @@
+{
+  "name": "page-fetcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dirtandgrass/page-fetcher.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dirtandgrass/page-fetcher/issues"
+  },
+  "homepage": "https://github.com/dirtandgrass/page-fetcher#readme",
+  "dependencies": {
+    "axios": "^1.6.7"
+  }
+}
